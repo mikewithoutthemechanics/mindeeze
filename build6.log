@@ -1,0 +1,867 @@
+Γû▓ Next.js 16.2.6 (Turbopack)
+- Environments: .env.local
+
+ΓÜá The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 64 errors:
+./CascadeProjects/windsurf-project-3/src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'jiti'
+Require stack:
+- C:\Users\Personal\CascadeProjects\windsurf-project-3\node_modules\@tailwindcss\node\dist\index.js
+- C:\Users\Personal\CascadeProjects\windsurf-project-3\node_modules\@tailwindcss\postcss\dist\index.js
+- C:\Users\Personal\CascadeProjects\windsurf-project-3\.next\build\chunks\[root-of-the-server]__0osekws._.js
+- C:\Users\Personal\CascadeProjects\windsurf-project-3\.next\build\chunks\[turbopack]_runtime.js
+- C:\Users\Personal\CascadeProjects\windsurf-project-3\.next\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)]
+    [at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)]
+    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)]
+    [at Module._load (node:internal/modules/cjs/loader:1227:37)]
+    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
+    [at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)]
+    [at Module.require (node:internal/modules/cjs/loader:1504:12)]
+    [at require (node:internal/modules/helpers:152:16)]
+    [at Object.<anonymous> (C:\Users\Personal\CascadeProjects\windsurf-project-3\node_modules\@tailwindcss\node\dist\index.js:1:1269)]
+    [at Module._compile (node:internal/modules/cjs/loader:1761:14)]
+
+Import trace:
+  Client Component Browser:
+    ./CascadeProjects/windsurf-project-3/src/app/globals.css [Client Component Browser]
+    ./CascadeProjects/windsurf-project-3/src/app/layout.tsx [Server Component]
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js:14:1
+Module not found: Can't resolve '../../../lib/constants'
+
+
+Import trace:
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/ppr-navigations.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/ppr-navigations.js:14:1
+Module not found: Can't resolve '../../../lib/constants'
+
+
+Import trace:
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/ppr-navigations.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/segment-cache/cache.js:21:1
+Module not found: Can't resolve '../../../lib/constants'
+
+
+Import trace:
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/segment-cache/cache.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/ppr-navigations.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/segment-cache/navigation.js:4:1
+Module not found: Can't resolve '../../../lib/constants'
+
+
+Import trace:
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/segment-cache/navigation.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/ppr-navigations.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/file-system-cache.js:3:1
+Module not found: Can't resolve '../../../lib/constants'
+
+
+Import trace:
+  Edge Middleware:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/file-system-cache.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/index.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/index.js:4:1
+Module not found: Can't resolve '../../../lib/constants'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/index.js:11:1
+Module not found: Can't resolve '../../../lib/detached-promise'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/file-system-cache.js:5:1
+Module not found: Can't resolve '../../../lib/multi-file-writer'
+
+
+Import trace:
+  Edge Middleware:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/file-system-cache.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/index.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/web/spec-extension/adapters/next-request.js:1:1
+Module not found: Can't resolve '../../../request-meta'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/client/components/http-access-fallback/error-boundary.js:18:40
+Module not found: Can't resolve '../../../shared/lib/app-router-context.shared-runtime'
+
+
+Import trace:
+  Client Component Browser:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/client/components/http-access-fallback/error-boundary.js [Client Component Browser]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/http-access-fallback/error-boundary.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/client/components/http-access-fallback/error-boundary.js:17:19
+Module not found: Can't resolve '../../../shared/lib/utils/warn-once'
+
+
+Import trace:
+  Client Component Browser:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/client/components/http-access-fallback/error-boundary.js [Client Component Browser]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/http-access-fallback/error-boundary.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js:7:1
+Module not found: Can't resolve '../../app-call-server'
+
+
+Import trace:
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/ppr-navigations.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js:8:1
+Module not found: Can't resolve '../../app-find-source-map-url'
+
+
+Import trace:
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/ppr-navigations.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js:9:1
+Module not found: Can't resolve '../../flight-data-helpers'
+
+
+Import trace:
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/ppr-navigations.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/segment-cache/cache.js:11:1
+Module not found: Can't resolve '../../flight-data-helpers'
+
+
+Import trace:
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/segment-cache/cache.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/ppr-navigations.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/api-utils/index.js:2:1
+Module not found: Can't resolve '../../lib/constants'
+
+
+Import traces:
+  App Route:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/api-utils/index.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/base-http/node.js
+
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/api-utils/index.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/base-http/node.js
+
+  Edge Middleware:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/api-utils/index.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/async-storage/draft-mode-provider.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/async-storage/request-store.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/cache-control.js:1:1
+Module not found: Can't resolve '../../lib/constants'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/implicit-tags.js:1:1
+Module not found: Can't resolve '../../lib/constants'
+
+
+Import trace:
+  Edge Middleware:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/patch-fetch.js:3:1
+Module not found: Can't resolve '../../lib/constants'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/patch-fetch.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/web/utils.js:1:1
+Module not found: Can't resolve '../../lib/constants'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/stream-utils/node-web-streams-helper.js:3:1
+Module not found: Can't resolve '../../lib/detached-promise'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/create-error-handler.js:10:1
+Module not found: Can't resolve '../../lib/error-telemetry-utils'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/create-error-handler.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/collect-segment-data.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/create-error-handler.js:2:1
+Module not found: Can't resolve '../../lib/format-server-error'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/create-error-handler.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/collect-segment-data.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/create-error-handler.js:9:1
+Module not found: Can't resolve '../../lib/is-error'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/create-error-handler.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/collect-segment-data.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/build/output/log.js:1:1
+Module not found: Can't resolve '../../lib/picocolors'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/build/output/log.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/lib/metadata/resolve-metadata.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/lib/metadata/metadata.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/collect-segment-data.js:10:1
+Module not found: Can't resolve '../../lib/scheduler'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/collect-segment-data.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/dynamic-rendering.js:29:1
+Module not found: Can't resolve '../../lib/scheduler'
+
+
+Import traces:
+  App Route:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/dynamic-rendering.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/patch-fetch.js
+
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/dynamic-rendering.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/dynamic-rendering.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/params.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/client-segment.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/client-segment.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/stream-utils/node-web-streams-helper.js:4:1
+Module not found: Can't resolve '../../lib/scheduler'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js:13:1
+Module not found: Can't resolve '../../navigation-build-id'
+
+
+Import trace:
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/ppr-navigations.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/segment-cache/cache.js:20:1
+Module not found: Can't resolve '../../navigation-build-id'
+
+
+Import trace:
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/segment-cache/cache.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/ppr-navigations.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/file-system-cache.js:1:1
+Module not found: Can't resolve '../../response-cache'
+
+
+Import trace:
+  Edge Middleware:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/file-system-cache.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/index.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/index.js:1:1
+Module not found: Can't resolve '../../response-cache'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/memory-cache.external.js:1:1
+Module not found: Can't resolve '../../response-cache/types'
+
+
+Import trace:
+  Edge Middleware:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/memory-cache.external.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/file-system-cache.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/index.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js:11:1
+Module not found: Can't resolve '../../route-params'
+
+
+Import trace:
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/ppr-navigations.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/segment-cache/cache.js:8:1
+Module not found: Can't resolve '../../route-params'
+
+
+Import trace:
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/segment-cache/cache.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/ppr-navigations.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/segment-cache/optimistic-routes.js:45:1
+Module not found: Can't resolve '../../route-params'
+
+
+Import trace:
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/segment-cache/optimistic-routes.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/router-reducer/ppr-navigations.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/incremental-cache/index.js:9:1
+Module not found: Can't resolve '../../server-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/unstable-rethrow.server.js:1:1
+Module not found: Can't resolve '../../server/dynamic-rendering-utils'
+
+
+Import trace:
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/unstable-rethrow.server.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/unstable-rethrow.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/navigation.react-server.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/navigation.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/redirect-boundary.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/lib/metadata/resolvers/resolve-opengraph.js:4:1
+Module not found: Can't resolve '../../url'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/lib/metadata/resolvers/resolve-opengraph.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/lib/metadata/resolve-metadata.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/lib/metadata/metadata.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/lib/metadata/resolve-metadata.js:19:1
+Module not found: Can't resolve '../client-and-server-references'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/lib/metadata/resolve-metadata.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/lib/metadata/metadata.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/params.js:9:1
+Module not found: Can't resolve '../create-deduped-by-callsite-server-error-logger'
+
+
+Import traces:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/params.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/params.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/client-segment.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/client-segment.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/search-params.js:8:1
+Module not found: Can't resolve '../create-deduped-by-callsite-server-error-logger'
+
+
+Import traces:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/search-params.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/search-params.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/client-page.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/client-page.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/dynamic-rendering.js:27:1
+Module not found: Can't resolve '../dynamic-rendering-utils'
+
+
+Import traces:
+  App Route:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/dynamic-rendering.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/patch-fetch.js
+
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/dynamic-rendering.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/dynamic-rendering.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/params.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/client-segment.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/client-segment.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/patch-fetch.js:5:1
+Module not found: Can't resolve '../dynamic-rendering-utils'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/patch-fetch.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/params.js:8:1
+Module not found: Can't resolve '../dynamic-rendering-utils'
+
+
+Import traces:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/params.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/params.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/client-segment.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/client-segment.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/pathname.js:4:1
+Module not found: Can't resolve '../dynamic-rendering-utils'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/pathname.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/lib/metadata/metadata.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/search-params.js:7:1
+Module not found: Can't resolve '../dynamic-rendering-utils'
+
+
+Import traces:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/search-params.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/search-params.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/client-page.js [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/client-page.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/server/web/spec-extension/request.js:25:16
+Module not found: Can't resolve '../error'
+
+
+Import trace:
+  App Route:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/server/web/spec-extension/request.js
+    ./node_modules/next/server.js
+    ./CascadeProjects/windsurf-project-3/src/app/auth/callback/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/client/components/http-access-fallback/error-boundary.js:15:30
+Module not found: Can't resolve '../navigation-untracked'
+
+
+Import trace:
+  Client Component Browser:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/client/components/http-access-fallback/error-boundary.js [Client Component Browser]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/http-access-fallback/error-boundary.js [Server Component]
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/server/web/spec-extension/request.js:23:18
+Module not found: Can't resolve '../next-url'
+
+
+Import trace:
+  App Route:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/server/web/spec-extension/request.js
+    ./node_modules/next/server.js
+    ./CascadeProjects/windsurf-project-3/src/app/auth/callback/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/server/web/spec-extension/response.js:12:18
+Module not found: Can't resolve '../next-url'
+
+
+Import trace:
+  App Route:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/server/web/spec-extension/response.js
+    ./node_modules/next/server.js
+    ./CascadeProjects/windsurf-project-3/src/app/auth/callback/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/create-error-handler.js:4:1
+Module not found: Can't resolve '../pipe-readable'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/create-error-handler.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/collect-segment-data.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/base-http/node.js:2:1
+Module not found: Can't resolve '../request-meta'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/web/adapter.js:24:1
+Module not found: Can't resolve '../request-meta'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/patch-fetch.js:8:1
+Module not found: Can't resolve '../response-cache'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/lib/patch-fetch.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/after/after-context.js:5:1
+Module not found: Can't resolve '../revalidation-utils'
+
+
+Import trace:
+  Edge Middleware:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/after/after-context.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/async-storage/work-store.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/route-modules/checks.js:1:1
+Module not found: Can't resolve '../route-kind'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/route-modules/checks.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/build/static-paths/utils.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/request/fallback-params.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/client-page.js:5:1
+Module not found: Can't resolve '../route-params'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/client-page.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js:15:1
+Module not found: Can't resolve '../route-params'
+
+
+Import trace:
+  Server Component:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/client/components/layout-router.js
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/esm/server/app-render/entry-base.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/server/web/spec-extension/request.js:24:16
+Module not found: Can't resolve '../utils'
+
+
+Import trace:
+  App Route:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/server/web/spec-extension/request.js
+    ./node_modules/next/server.js
+    ./CascadeProjects/windsurf-project-3/src/app/auth/callback/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/node_modules/next/dist/server/web/spec-extension/response.js:13:16
+Module not found: Can't resolve '../utils'
+
+
+Import trace:
+  App Route:
+    ./CascadeProjects/windsurf-project-3/node_modules/next/dist/server/web/spec-extension/response.js
+    ./node_modules/next/server.js
+    ./CascadeProjects/windsurf-project-3/src/app/auth/callback/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./CascadeProjects/windsurf-project-3/src/lib/groq/client.ts:1:1
+Module not found: Can't resolve 'groq-sdk'
+> 1 | import Groq from 'groq-sdk'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const groq = new Groq({
+  4 |   apiKey: process.env.GROQ_API_KEY,
+
+
+
+Import traces:
+  Client Component Browser:
+    ./CascadeProjects/windsurf-project-3/src/lib/groq/client.ts [Client Component Browser]
+    ./CascadeProjects/windsurf-project-3/src/app/notes/new/page.tsx [Client Component Browser]
+    ./CascadeProjects/windsurf-project-3/src/app/notes/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./CascadeProjects/windsurf-project-3/src/lib/groq/client.ts [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/src/app/notes/new/page.tsx [Client Component SSR]
+    ./CascadeProjects/windsurf-project-3/src/app/notes/new/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    ... collapsed 61 duplicate lines matching above 1 lines 61 times...
+    at <unknown> (./CascadeProjects/windsurf-project-3/src/lib/groq/client.ts:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
