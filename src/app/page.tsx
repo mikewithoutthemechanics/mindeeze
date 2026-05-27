@@ -1,17 +1,8 @@
-import { createClient } from '@/lib/supabase/server'
-import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import VideoHero from '@/components/hero/VideoHero'
 import ThreeBackground from '@/components/three/ThreeBackground'
 
-export default async function Home() {
-  const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
-
-  if (user) {
-    redirect('/dashboard')
-  }
-
+export default function Home() {
   return (
     <>
       <ThreeBackground />
