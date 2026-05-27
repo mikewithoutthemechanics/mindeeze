@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "MindEeze - Practice Management for Therapists",
   description: "AI-native practice management for private-pay therapists, counsellors, and mental health practitioners.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
